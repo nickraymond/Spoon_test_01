@@ -1,7 +1,7 @@
 # Spoon_test_01
 Test program using Python 3 to open, parse and edit CSV files.
 
-<B>Inputs:
+Inputs:
 
     0872_GPS.csv
     0872_SYS.csv
@@ -14,8 +14,7 @@ Porgrams
 Outputs 
     
     0872_SYS_NEW.csv
-    
-</B>
+
     
 ### Instructions:
 
@@ -87,6 +86,9 @@ The goal of the exercise is to write a parsing script in Python that does the fo
    I heavily relied upon online resources to get a sense of common tools and strategies. This included Stackoverflow, Youtube, and online tutorials. I also used a book reference, the O'Reilly RPi Cookbook, as this has a chapter on basic Python syntax and example code.  The rest of the task was accomplished by searching StackOverflow for related topics and questions, specific to "user input" or "comparing portions of two strings". Along the way I would create small "test" programs to focus on one small aspect of the code and once that small aspect was working I would then add it to my larger master program. Along the way I kept notes in a google doc with links to helpful tutorials or reference information for quick access.  
  
    
-##### Q3:and how you decide between different ways of completing the task? 
+##### Q3: how you decide between different ways of completing the task? 
 
-   Being that there are some many ways to approach this problem, I first ran through two basic examples for importing/parsing CSV files that repeatedly came up in tutorials and didn't require any that an additional packages be installed. Start with the absolute basics. This discussed parsing the data using either lists or dictionaries. Once I had a grasp on these two options, I tried to modify the values within the ard_millis dataset only to realize that everything had been imported as a string. So I looked for a solution to read csv files as floats, assuming this was more efficient than type casting after parsing everything, and found several references to the Pandas utility. More reading to differentiate why Pandas is better than the basic examples, then I followed two tutorials to learn how to create the DataFrame.
+   Being that there are some many ways to approach this problem, I first ran through two basic examples for importing/parsing CSV files that repeatedly came up in tutorials and didn't require any that an additional packages be installed. Start with the absolute basics. This discussed parsing the data using either lists or dictionaries. Once I had a grasp on these two options, I tried to modify the values within the ard_millis dataset only to realize that everything had been imported as a string. So I looked for a solution to read csv files as floats, assuming this was more efficient than type casting after parsing everything, and found several references to the Pandas utility. More reading to differentiate why Pandas is better than the basic examples, then I followed two tutorials to learn how to create the DataFrame. I prioritized methods that I thought would be easy for humans to read, using header names instead of numerical indices when referencing cell values, and looking for a package that was widely used and supported that offered tools to easily manipualte the data set. I had a very minor experience using numpy, and when I learned that Pandas could be used in conjunction with numpy this indicated to me that the overlap might allow for more sophisticated features in the future. Scalability is important. Pandas also had a very well documented support page - and searching online I found that the package is actively under development and is supported for Python 3. I assume there will be a major switch to Python 3 eventually, so I felt that creating code based on this package would be safe for now - not as if I were using an obscure code package that was no longer under development.
+   
+   
+Overall, I had fun learning about Python and setting up PyCharm + Github to sync my files onto the repo. Now that I have PyCharm setup I feel that I can continue to develop with Python and even impliment some new features in a few personal projects. It is very reminiscent of Matlab and while the syntax is different the ket concepts are very similar. Very cool-
