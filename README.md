@@ -39,7 +39,7 @@ The goal of the exercise is to write a parsing script in Python that does the fo
 
 1. open NNNN_GPS.csv and NNNN_SYS.csv using the Pandas csv reader to create a DataFrame. I decided to use the Pandas data analysis toolkit because the read_csv method automatically converts numerical values to floats. Additionally, Pandas offers tools to manipulate, add, delete columns in the DataFrames which can be used in place of the dictionaries functionality.
 
-2. Determine when the SYS was last rest in Epoch Time. This linear time offset can be calcuated from the first row in the GPS.csv or any other row for that matter using the SYS and GPS times. It is important to convery the ard_millis value from milliseconds to seconds during the calcualtion.
+2. Determine when the SYS was last rest in Epoch Time. This linear time offset can be calcuated from the first row in the GPS.csv or any other row for that matter using the SYS and GPS times. It is important to convery the ard_millis value from milliseconds to seconds during the calcualtion. As a quick check, you can calcaulte this offset using row[0]  and then verify with any other row. I did this for row 50 and 100 to verify that the offset value was the same - this represented the time when the SYS clock was last reset.
 
        ex: epoch_offset = GPS_epoch[0] - ard_millis[0]/1000.0  
 
