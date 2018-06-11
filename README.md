@@ -59,3 +59,18 @@ The goal of the exercise is to write a parsing script in Python that does the fo
 4. ~1 more hour to create Spoon_test_02.py, added user inoputs and check to verify file ID code was the same.
 5. Extra - still having fun, decided to setup PyCharm + Github. Created repo to share files.
 6. Extra - having too much fun, copied my hand notes to the README file for documentation purposes.
+
+### Process and workflow
+
+##### Q1: how did you approach the problem?
+
+   I had been thinking about this type of problem for some time now, based on my personal project with the small 3D printed wave buoy using an RTC and GPS module. My first task was to list out on paper the goals, my assumptions, and visualize what the final output should look like - including formatting of the new CSV file and the values in the first five rows. The trick was think about how to determine the Epoch time at the moment of the SYS reset. Since the GPS.csv file logged both Epoch and SYS time together, and I assumed that these two times times were sync in a deterministic way, it was possible to calcualte a linear offset  by subtracting the SYS time from the Epoch time for a known entry in the data set. I could then work backward to determine the Epoch time for the reset. If the GPS.csv file had not logged both SYS and Epoch time, then this would be much more difficult since we would need to determine an event when we could safety assume the GPS and SYS clocks were querried at the same moment. 
+
+##### Q2: what steps you go through to learn what options there are?
+
+   I heavily relied upon online resources to get a sense of common tools and strategies. This included Stackoverflow, Youtube, and online tutorials. I also used a book reference, the O'Reilly RPi Cookbook, as this has a chapter on basic Python syntax and example code.  The rest of the task was accomplished by searching StackOverflow for related topics and questions, specific to "user input" or "comparing portions of two strings". Along the way I would create small "test" programs to focus on one small aspect of the code and once that small aspect was working I would then add it to my larger master program. Along the way I kept notes in a google doc with links to helpful tutorials or reference information for quick access.  
+ 
+   
+##### Q3:and how you decide between different ways of completing the task? 
+
+   Being that there are some many ways to approach this problem, I first ran through two basic examples for importing/parsing CSV files that repeatedly came up in tutorials and didn't require any that an additional packages be installed. Start with the absolute basics. This discussed parsing the data using either lists or dictionaries. Once I had a grasp on these two options, I tried to modify the values within the ard_millis dataset only to realize that everything had been imported as a string. So I looked for a solution to read csv files as floats, assuming this was more efficient than type casting after parsing everything, and found several references to the Pandas utility. More reading to differentiate why Pandas is better than the basic examples, then I followed two tutorials to learn how to create the DataFrame.
