@@ -3,7 +3,7 @@ Test program using Python 3 to open, parse and edit CSV files.
 
 ### Instructions:
 
-The Spotter system saves data and log information to its on-board SD card, and for a number of reasons, these logs are broken into several different file types and into indexed chunks. So all logs with prefix of 0872 will cover the same time range, and will have different content for that time range based on the type code (eg SYS or GPS).
+The system saves data and log information to its on-board SD card, and for a number of reasons, these logs are broken into several different file types and into indexed chunks. So all logs with prefix of 0872 will cover the same time range, and will have different content for that time range based on the type code (eg SYS or GPS).
 
 The system has 2 measures of time: 
 - One is the on-board system clock count, and describes the time since the last system reset in milliseconds (ard_millis). This clock isn't very accurate in an absolute sense, and will have part-to-part variation, temperature sensitivity, etc. Its usefulness is really for tracking system resets, and for providing a master key to match all the different files to each other. eg:
@@ -26,9 +26,9 @@ The goal of the exercise is to write a parsing script in Python that does the fo
 
 • NNNN_GPS.csv and NNNN_SYS.csv are taken during the same chunk of time and are sync based on SYS clock
 
-• Better if the code is easily read by humnans, file size not critical
+• Better if the code is easily read by humans, file size not critical
 
-• Assume it is OK to hardcode file names into program // if extra time I would like to prompt the user to insert file names
+• Assume it is OK to hard code file names into program // if extra time I would like to prompt the user to insert file names
 
 • Output a NEW version of the SYS file with "GPS Epoch Time" added as the second column
 
@@ -52,10 +52,10 @@ The goal of the exercise is to write a parsing script in Python that does the fo
 
 ### Time Allocation
 
-0. Approximatly 30 min to brainstorm, flow chart, and outline assumptions and strategy on paper.
-1. Approximatly 30 min to setup PyCharm, setting up a virtual environment, and running basic python tutorials from the O'reilly Raspberry Pi Cookbook.
-2. Approximatly one hour learning about CVS readers, lists, dictionaries, and DataFrames and setting up Pandas.
-3. Approximatly 1 - 2 hours writting code, debugging to create file "Spoon_test.py". At the end of the three hours hard stop this program did not have all the functionality that I wanted.
-4. Approximatly 1 more hour to create Spoon_test_02.py, added user inoputs and check to verify file ID code was the same.
-5. Extra - having too much fun, decided to setup PyCharm + Github. Created repo to share files.
-6. Extra - still having fun, added my notes to the README file.
+0. ~30 min to brainstorm, flow chart, and outline assumptions and strategy on paper.
+1. ~30 min to setup PyCharm, setting up a virtual environment, and running basic python tutorials from the O'reilly Raspberry Pi Cookbook.
+2. ~1 hour learning about CVS readers, lists, dictionaries, and DataFrames and setting up Pandas.
+3. 1-2 hours writing code, debugging to create file "Spoon_test.py". At the end of the three hours this program did not have all the functionality that I wanted.
+4. ~1 more hour to create Spoon_test_02.py, added user inoputs and check to verify file ID code was the same.
+5. Extra - still having fun, decided to setup PyCharm + Github. Created repo to share files.
+6. Extra - having too much fun, copied my hand notes to the README file for documentation purposes.
