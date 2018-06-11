@@ -1,0 +1,162 @@
+ard_millis,type,message
+673,INFO,session id: 872
+675,INFO,reset state: 1
+677,INFO,ext ram reset count: 0
+1970,WARN,wd unserviced for 1036
+1996,INFO,Loaded OP MODE: 40962
+5058,INFO,start error byte: 0
+5066,INFO,power error byte: 10000
+262342,INFO,start collection m: 0
+363964,INFO,start analysis m: 0 t: 0 e: 0
+366891,WARN,wd unserviced for 1141
+390776,INFO,complete analysis m: 0 t: 0 e: 0
+415836,INFO,start analysis m: 0 t: 0 e: 1
+441516,INFO,complete analysis m: 0 t: 0 e: 1
+466907,INFO,start analysis m: 0 t: 0 e: 2
+492210,INFO,complete analysis m: 0 t: 0 e: 2
+517974,INFO,start analysis m: 0 t: 0 e: 3
+543125,INFO,complete analysis m: 0 t: 0 e: 3
+569036,INFO,start analysis m: 0 t: 0 e: 4
+594204,INFO,complete analysis m: 0 t: 0 e: 4
+620111,INFO,start analysis m: 0 t: 0 e: 5
+644958,INFO,complete analysis m: 0 t: 0 e: 5
+671205,INFO,start analysis m: 0 t: 0 e: 6
+674048,WARN,wd unserviced for 1016
+697774,INFO,complete analysis m: 0 t: 0 e: 6
+722286,INFO,start analysis m: 0 t: 0 e: 7
+747139,INFO,complete analysis m: 0 t: 0 e: 7
+773357,INFO,start analysis m: 0 t: 0 e: 8
+798146,INFO,complete analysis m: 0 t: 0 e: 8
+824401,INFO,start analysis m: 0 t: 0 e: 9
+835192,WARN,wd unserviced for 1005
+850388,INFO,complete analysis m: 0 t: 0 e: 9
+875479,INFO,start analysis m: 0 t: 0 e: 10
+900661,INFO,complete analysis m: 0 t: 0 e: 10
+926539,INFO,start analysis m: 0 t: 0 e: 11
+951738,INFO,complete analysis m: 0 t: 0 e: 11
+977616,INFO,start analysis m: 0 t: 0 e: 12
+1002858,INFO,complete analysis m: 0 t: 0 e: 12
+1028679,INFO,start analysis m: 0 t: 0 e: 13
+1053822,INFO,complete analysis m: 0 t: 0 e: 13
+1079742,INFO,start analysis m: 0 t: 0 e: 14
+1104660,INFO,complete analysis m: 0 t: 0 e: 14
+1130813,INFO,start analysis m: 0 t: 0 e: 15
+1155727,INFO,complete analysis m: 0 t: 0 e: 15
+1181894,INFO,start analysis m: 0 t: 0 e: 16
+1206704,INFO,complete analysis m: 0 t: 0 e: 16
+1232959,INFO,start analysis m: 0 t: 0 e: 17
+1257353,WARN,wd unserviced for 1065
+1259114,INFO,complete analysis m: 0 t: 0 e: 17
+1284026,INFO,start analysis m: 0 t: 0 e: 18
+1308923,INFO,complete analysis m: 0 t: 0 e: 18
+1335095,INFO,start analysis m: 0 t: 0 e: 19
+1359966,INFO,complete analysis m: 0 t: 0 e: 19
+1386160,INFO,start analysis m: 0 t: 0 e: 20
+1411057,INFO,complete analysis m: 0 t: 0 e: 20
+1437237,INFO,start analysis m: 0 t: 0 e: 21
+1462110,INFO,complete analysis m: 0 t: 0 e: 21
+1488300,INFO,start analysis m: 0 t: 0 e: 22
+1513191,INFO,complete analysis m: 0 t: 0 e: 22
+1539364,INFO,start analysis m: 0 t: 0 e: 23
+1564219,INFO,complete analysis m: 0 t: 0 e: 23
+1590433,INFO,start analysis m: 0 t: 0 e: 24
+1615263,INFO,complete analysis m: 0 t: 0 e: 24
+1641486,INFO,start analysis m: 0 t: 0 e: 25
+1656987,WARN,wd unserviced for 1030
+1667555,INFO,complete analysis m: 0 t: 0 e: 25
+1692551,INFO,start analysis m: 0 t: 0 e: 26
+1717549,INFO,complete analysis m: 0 t: 0 e: 26
+1743624,INFO,start analysis m: 0 t: 0 e: 27
+1768585,INFO,complete analysis m: 0 t: 0 e: 27
+1794680,INFO,start analysis m: 0 t: 0 e: 28
+1819836,INFO,complete analysis m: 0 t: 0 e: 28
+1845762,INFO,start analysis m: 0 t: 0 e: 29
+1871327,INFO,complete analysis m: 0 t: 0 e: 29
+1896843,INFO,start analysis m: 0 t: 0 e: 30
+1921820,INFO,complete analysis m: 0 t: 0 e: 30
+1947891,INFO,start analysis m: 0 t: 0 e: 31
+1972869,INFO,complete analysis m: 0 t: 0 e: 31
+1998960,INFO,start analysis m: 0 t: 0 e: 32
+2023565,INFO,complete analysis m: 0 t: 0 e: 32
+2050037,INFO,start analysis m: 0 t: 0 e: 33
+2074640,INFO,complete analysis m: 0 t: 0 e: 33
+2074669,WARN,stat timeout
+2074691,INFO,process stats m: 0 t: 0 e: 34
+2074869,INFO,start stat m: 0 t: 1
+2177701,INFO,start analysis m: 0 t: 1 e: 0
+2202259,INFO,complete analysis m: 0 t: 1 e: 0
+2228762,INFO,start analysis m: 0 t: 1 e: 1
+2253608,INFO,complete analysis m: 0 t: 1 e: 1
+2279827,INFO,start analysis m: 0 t: 1 e: 2
+2304860,INFO,complete analysis m: 0 t: 1 e: 2
+2330906,INFO,start analysis m: 0 t: 1 e: 3
+2355746,INFO,complete analysis m: 0 t: 1 e: 3
+2381967,INFO,start analysis m: 0 t: 1 e: 4
+2406619,INFO,complete analysis m: 0 t: 1 e: 4
+2433034,INFO,start analysis m: 0 t: 1 e: 5
+2457470,INFO,complete analysis m: 0 t: 1 e: 5
+2484109,INFO,start analysis m: 0 t: 1 e: 6
+2508632,INFO,complete analysis m: 0 t: 1 e: 6
+2535172,INFO,start analysis m: 0 t: 1 e: 7
+2539075,WARN,wd unserviced for 1057
+2561777,INFO,complete analysis m: 0 t: 1 e: 7
+2587039,INFO,start analysis m: 0 t: 1 e: 8
+2611875,INFO,complete analysis m: 0 t: 1 e: 8
+2638104,INFO,start analysis m: 0 t: 1 e: 9
+2662875,INFO,complete analysis m: 0 t: 1 e: 9
+2689179,INFO,start analysis m: 0 t: 1 e: 10
+2714126,INFO,complete analysis m: 0 t: 1 e: 10
+2740242,INFO,start analysis m: 0 t: 1 e: 11
+2765121,INFO,complete analysis m: 0 t: 1 e: 11
+2791333,INFO,start analysis m: 0 t: 1 e: 12
+2816217,INFO,complete analysis m: 0 t: 1 e: 12
+2842384,INFO,start analysis m: 0 t: 1 e: 13
+2866874,INFO,complete analysis m: 0 t: 1 e: 13
+2893449,INFO,start analysis m: 0 t: 1 e: 14
+2917935,INFO,complete analysis m: 0 t: 1 e: 14
+2945318,INFO,start analysis m: 0 t: 1 e: 15
+2970136,INFO,complete analysis m: 0 t: 1 e: 15
+2996393,INFO,start analysis m: 0 t: 1 e: 16
+3021975,INFO,complete analysis m: 0 t: 1 e: 16
+3047452,INFO,start analysis m: 0 t: 1 e: 17
+3072309,INFO,complete analysis m: 0 t: 1 e: 17
+3098533,INFO,start analysis m: 0 t: 1 e: 18
+3123347,INFO,complete analysis m: 0 t: 1 e: 18
+3149590,INFO,start analysis m: 0 t: 1 e: 19
+3174490,INFO,complete analysis m: 0 t: 1 e: 19
+3200655,INFO,start analysis m: 0 t: 1 e: 20
+3225159,INFO,complete analysis m: 0 t: 1 e: 20
+3251730,INFO,start analysis m: 0 t: 1 e: 21
+3276204,INFO,complete analysis m: 0 t: 1 e: 21
+3290370,WARN,wd unserviced for 887
+3303593,INFO,start analysis m: 0 t: 1 e: 22
+3328512,INFO,complete analysis m: 0 t: 1 e: 22
+3354664,INFO,start analysis m: 0 t: 1 e: 23
+3379482,INFO,complete analysis m: 0 t: 1 e: 23
+3405731,INFO,start analysis m: 0 t: 1 e: 24
+3430647,INFO,complete analysis m: 0 t: 1 e: 24
+3456796,INFO,start analysis m: 0 t: 1 e: 25
+3481679,INFO,complete analysis m: 0 t: 1 e: 25
+3507867,INFO,start analysis m: 0 t: 1 e: 26
+3532775,INFO,complete analysis m: 0 t: 1 e: 26
+3558944,INFO,start analysis m: 0 t: 1 e: 27
+3583737,INFO,complete analysis m: 0 t: 1 e: 27
+3610005,INFO,start analysis m: 0 t: 1 e: 28
+3634221,INFO,complete analysis m: 0 t: 1 e: 28
+3661082,INFO,start analysis m: 0 t: 1 e: 29
+3685552,INFO,complete analysis m: 0 t: 1 e: 29
+3712149,INFO,start analysis m: 0 t: 1 e: 30
+3722967,WARN,wd unserviced for 1121
+3738318,INFO,complete analysis m: 0 t: 1 e: 30
+3764015,INFO,start analysis m: 0 t: 1 e: 31
+3788793,INFO,complete analysis m: 0 t: 1 e: 31
+3815081,INFO,start analysis m: 0 t: 1 e: 32
+3839887,INFO,complete analysis m: 0 t: 1 e: 32
+3866142,INFO,start analysis m: 0 t: 1 e: 33
+3890948,INFO,complete analysis m: 0 t: 1 e: 33
+3890972,WARN,stat timeout
+3890991,INFO,process stats m: 0 t: 1 e: 34
+3891105,INFO,finished collection sending m: 0
+3891382,INFO,start collection m: 0
+3908364,ERROR,external RAM failure!
+3908382,INFO,RAM fail reset trigger!
