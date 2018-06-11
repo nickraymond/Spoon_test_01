@@ -1,6 +1,19 @@
 # Spoon_test_01
 Test program using Python 3 to open, parse and edit CSV files.
 
+<B>Inputs:
+
+    0872_GPS.csv
+    0872_SYS.csv
+    
+Porgrams
+
+    Spoon_test.py
+    Spoon_test_02.py
+    
+Outputs </B>
+    
+    0872_SYS_NEW.csv
 ### Instructions:
 
 The system saves data and log information to its on-board SD card, and for a number of reasons, these logs are broken into several different file types and into indexed chunks. So all logs with prefix of 0872 will cover the same time range, and will have different content for that time range based on the type code (eg SYS or GPS).
