@@ -1,4 +1,4 @@
-ard_millis,SYS Epoch Time,type,message
+ard_millis,GPS Epoch Time,type,message
 673,1489675113.351,INFO,session id: 872
 675,1489675113.353,INFO,reset state: 1
 677,1489675113.355,INFO,ext ram reset count: 0

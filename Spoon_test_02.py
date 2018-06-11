@@ -39,7 +39,7 @@ sys_epoch_time = df2.loc[:,"ard_millis"]/1000.0 + epoch_time
 # add the new column of data to the df2 dataFrame after the ard_millis column
 idx = 1
 new_col = sys_epoch_time
-df2.insert(loc=idx, column='SYS Epoch Time', value=new_col)
+df2.insert(loc=idx, column='GPS Epoch Time', value=new_col)
 
 # Save dataFrame as csv in the working director, do not include the dataFrame index
 new_file_name = file_name_SYS[0:4] + '_SYS_NEW.csv'
