@@ -1,6 +1,12 @@
 # File name : Spoon_test_02.py
 # Creator : Nick Raymond
 # Date : June 10, 2018
+# Description: modified the code to have desired features, like:
+#               a. check NNNN ID code for both files
+#               b. prompt the user to input the names of both files
+#               c. system exit message if NNNN IDs do not match
+#               d. pull the NNNN code when creatnig new file name
+#               e. update code to try and follow the Pep8 style guide formatting
 
 import pandas as pd
 import sys
@@ -25,8 +31,6 @@ df2 = pd.read_csv(file_name_SYS)
 # Check the first five rows of the parsed data, to see headers + 4 rows of data
 print(df1.head())
 print(df2.head())
-
-
 
 # Determine the Epoch time of the last SYS reset, remember to convert millis to seconds
 epoch_time = float(df1.loc[0,"GPS Epoch Time"]) - float(df1.loc[0, "ard_millis"])/1000.0
